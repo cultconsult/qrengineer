@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "fePointLight",
+    "categories": ["svg"],
+    "description": "Defines a point light source for lighting effects",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/fePointLight",
+    "aliases": ["point-light", "svg-point"],
+    "interfaces": [
+      "SVGFEPointLightElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "fePointLight",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

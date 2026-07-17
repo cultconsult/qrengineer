@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "name": "area",
+    "categories": ["media"],
+    "description": "Defines a clickable area inside an image map",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
+    "aliases": ["imagemap-area"],
+    "isVoid": true,
+    "interfaces": [
+      "HTMLAreaElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "area",
+        "type": "element",
+        "attrs": {
+          "alt": {
+            "type": "value",
+            "value": ""
+          },
+          "coords": {
+            "type": "value",
+            "value": ""
+          },
+          "shape": {
+            "type": "value",
+            "value": "rect"
+          }
+        },
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

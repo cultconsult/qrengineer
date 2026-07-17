@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "name": "iframe",
+    "categories": ["media"],
+    "description": "Embeds another HTML page within the current page",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe",
+    "aliases": ["inline-frame", "embed-page", "frame"],
+    "interfaces": [
+      "HTMLIFrameElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "iframe",
+        "type": "element",
+        "attrs": {
+          "src": {
+            "type": "value",
+            "value": ""
+          }
+        },
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

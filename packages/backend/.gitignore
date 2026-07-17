@@ -1,0 +1,9 @@
+# deps
+node_modules/
+# folder with static assets that are added in a predev script
+assets/
+dist/
+.wrangler
+nordcraft-internal
+
+.DS_Store

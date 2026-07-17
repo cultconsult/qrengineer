@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "name": "q",
+    "categories": ["typography"],
+    "description": "Indicates a short inline quotation",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q",
+    "aliases": ["inline-quote"],
+    "interfaces": [
+      "HTMLQuoteElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "q",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": ["MsVwQCP4yKPh_00L4fAhT"],
+        "style-variables": []
+      },
+      "MsVwQCP4yKPh_00L4fAhT": {
+        "type": "text",
+        "value": {
+          "type": "value",
+          "value": "Quoted text"
+        }
+      }
+    }
+  }
+}

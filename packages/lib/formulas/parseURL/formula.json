@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/libFormula.schema.json",
+  "name": "Parse URL",
+  "description": "Parse a URL.",
+  "arguments": [
+    {
+      "name": "URL",
+      "formula": {
+        "type": "value",
+        "value": null
+      },
+      "description": "The URL value to parse.",
+      "type": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "Base",
+      "formula": {
+        "type": "value",
+        "value": null
+      },
+      "description": "An optional base for the URL. Use this to resolve relative URLs.",
+      "type": {
+        "type": "String"
+      }
+    }
+  ],
+  "output": {
+    "description": "An object containing: \"hostname\", \"searchParams\", \"path\", \"hash\", \"href\", \"protocol\", \"port\", \"origin\"",
+    "type": {
+      "type": "Object"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+import { isLegacyApi } from '@nordcraft/core/dist/api/api'
+import type { IssueRule } from '../../../types'
+
+export const invalidApiParserModeRule: IssueRule<{ api: string }> = {
+  code: 'invalid api parser mode',
+  level: 'warning',
+  category: 'Quality',
+  visit: (report, args) => {
+    if (args.nodeType !== 'component-api') {
+      return
+    }
+    const { path, value } = args
+    if (
+      isLegacyApi(value) ||
+      typeof value.client?.parserMode !== 'string' ||
+      ['json', 'text', 'auto'].includes(value.client.parserMode) ||
+      value.server?.ssr?.enabled?.formula === undefined ||
+      (value.server.ssr.enabled.formula.type === 'value' &&
+        value.server.ssr.enabled.formula.value === false)
+    ) {
+      return
+    }
+
+    report({
+      path,
+      info: {
+        title: 'Invalid API parser mode',
+        description: `The API **${value.name}** uses a parser mode has SSR enabled while it uses a parser mode that is not supported during SSR. Consider disabling SSR.`,
+      },
+      details: { api: value.name },
+    })
+  },
+}

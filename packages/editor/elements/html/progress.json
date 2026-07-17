@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "name": "progress",
+    "categories": ["form"],
+    "description": "Shows the progress of a task or operation",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress",
+    "aliases": ["progress-bar", "loading"],
+    "interfaces": [
+      "HTMLProgressElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "progress",
+        "type": "element",
+        "attrs": {
+          "value": {
+            "type": "value",
+            "value": ""
+          }
+        },
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

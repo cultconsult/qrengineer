@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/libAction.schema.json",
+  "name": "Delete from session storage",
+  "description": "Delete a value from session storage (if found) based on the provided key.",
+  "group": "session_storage",
+  "arguments": [
+    {
+      "name": "Key",
+      "description": "The key in session storage to delete.",
+      "type": { "type": "String" },
+      "formula": {
+        "type": "value",
+        "value": ""
+      }
+    }
+  ]
+}

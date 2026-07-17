@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "name": "details",
+    "categories": ["semantic"],
+    "description": "Creates a disclosure widget for additional information",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details",
+    "aliases": ["disclosure", "expandable"],
+    "interfaces": ["HTMLDetailsElement", "global"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "details",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

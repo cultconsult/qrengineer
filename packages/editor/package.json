@@ -1,0 +1,20 @@
+{
+  "name": "@nordcraft/editor",
+  "scripts": {
+    "buildElements": "cd elements && bun buildElements.ts",
+    "postbuildElements": "bun run prettier:write",
+    "buildInterfaces": "cd elements && bun buildInterfaces.ts",
+    "postbuildInterfaces": "bun run prettier:write",
+    "prettier:write": "prettier --write  'elements/**/*.json'",
+    "typecheck": "tsgo --noEmit",
+    "watch": "tsgo --noEmit --watch"
+  },
+  "devDependencies": {
+    "@nordcraft/core": "workspace:*",
+    "@types/css-tree": "2.3.11",
+    "@webref/elements": "2.6.0",
+    "@webref/events": "1.20.0",
+    "css-tree": "3.1.0",
+    "mdn-data": "2.26.0"
+  }
+}

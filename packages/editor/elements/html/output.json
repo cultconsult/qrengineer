@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "output",
+    "categories": ["form"],
+    "description": "Displays the result of a calculation or user action",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output",
+    "aliases": ["calculation-result"],
+    "interfaces": [
+      "HTMLOutputElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "output",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

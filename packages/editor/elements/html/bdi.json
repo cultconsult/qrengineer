@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "bdi",
+    "categories": ["typography"],
+    "description": "Isolates a span of text that might have a different text direction",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi",
+    "aliases": ["bidirectional-isolation"],
+    "interfaces": ["HTMLElement", "Element", "Node", "EventTarget", "global"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "bdi",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": ["MsVwQCP4yKPh_00L4fAhT"],
+        "style-variables": []
+      },
+      "MsVwQCP4yKPh_00L4fAhT": {
+        "type": "text",
+        "value": {
+          "type": "value",
+          "value": "Text"
+        }
+      }
+    }
+  }
+}

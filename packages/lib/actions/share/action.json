@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/libAction.schema.json",
+  "name": "Share",
+  "description": "Share data with title, text, and/or URL using the Navigator.share API.",
+  "group": "sharing",
+  "arguments": [
+    {
+      "name": "URL",
+      "description": "The URL to share.",
+      "type": { "type": "String" },
+      "formula": { "type": "value", "value": null }
+    },
+    {
+      "name": "Title",
+      "description": "The title to share.",
+      "type": { "type": "String" },
+      "formula": { "type": "value", "value": null }
+    },
+    {
+      "name": "Text",
+      "description": "The text to share.",
+      "type": { "type": "String" },
+      "formula": { "type": "value", "value": null }
+    }
+  ]
+}

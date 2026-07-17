@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "name": "h2",
+    "categories": ["typography"],
+    "description": "Represents a second-level heading",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h2",
+    "aliases": ["heading-2", "heading", "sub-heading"],
+    "isPopular": true,
+    "interfaces": [
+      "HTMLHeadingElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "h2",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": ["MsVwQCP4yKPh_00L4fAhT"],
+        "style-variables": []
+      },
+      "MsVwQCP4yKPh_00L4fAhT": {
+        "type": "text",
+        "value": {
+          "type": "value",
+          "value": "h2 heading"
+        }
+      }
+    }
+  }
+}

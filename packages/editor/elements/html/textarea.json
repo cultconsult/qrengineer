@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "name": "textarea",
+    "categories": ["form"],
+    "description": "Allows multi-line text input in a form",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea",
+    "aliases": ["multiline-input"],
+    "interfaces": [
+      "HTMLTextAreaElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "textarea",
+        "type": "element",
+        "attrs": {
+          "name": {
+            "type": "value",
+            "value": ""
+          }
+        },
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

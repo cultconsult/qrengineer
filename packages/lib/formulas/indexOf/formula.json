@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/libFormula.schema.json",
+  "name": "Index of",
+  "description": "Find the index of a specific item in an Array or String.and [String.prototype.indexOf on MDN]() for more information.",
+  "arguments": [
+    {
+      "name": "Array",
+      "formula": {
+        "type": "value",
+        "value": ""
+      },
+      "description": "The value to search.",
+      "type": {
+        "type": "Array \\| String"
+      }
+    },
+    {
+      "name": "Item",
+      "formula": {
+        "type": "value",
+        "value": ""
+      },
+      "description": "The items to search for.",
+      "type": {
+        "type": "Any"
+      }
+    }
+  ],
+  "output": {
+    "description": "If the item exists in the Array, the index of that item is returned. If the item is not found, -1 is returned.",
+    "type": {
+      "type": "Number"
+    }
+  }
+}

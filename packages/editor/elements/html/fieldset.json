@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "fieldset",
+    "categories": ["form"],
+    "description": "Groups related elements in a form",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset",
+    "aliases": ["form-group"],
+    "interfaces": [
+      "HTMLFieldSetElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "fieldset",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

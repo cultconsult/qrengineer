@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "td",
+    "categories": ["semantic"],
+    "description": "Defines a cell in a table row",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td",
+    "aliases": ["table-cell"],
+    "interfaces": [
+      "HTMLTableCellElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ],
+    "permittedParents": ["tr"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "td",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

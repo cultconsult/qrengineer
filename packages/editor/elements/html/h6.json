@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "name": "h6",
+    "categories": ["typography"],
+    "description": "Represents a sixth-level heading",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h6",
+    "aliases": ["heading-6", "heading", "sub-heading"],
+    "interfaces": [
+      "HTMLHeadingElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "h6",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": ["MsVwQCP4yKPh_00L4fAhT"],
+        "style-variables": []
+      },
+      "MsVwQCP4yKPh_00L4fAhT": {
+        "type": "text",
+        "value": {
+          "type": "value",
+          "value": "h6 heading"
+        }
+      }
+    }
+  }
+}

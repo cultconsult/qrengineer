@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "name": "source",
+    "categories": ["media"],
+    "description": "Specifies multiple media resources for media elements",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source",
+    "aliases": ["media-source"],
+    "isVoid": true,
+    "interfaces": [
+      "HTMLSourceElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "source",
+        "type": "element",
+        "attrs": {
+          "src": {
+            "type": "value",
+            "value": ""
+          }
+        },
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

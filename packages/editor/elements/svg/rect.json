@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "rect",
+    "categories": ["svg"],
+    "description": "Draws a rectangle, optionally with rounded corners",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/rect",
+    "aliases": ["rectangle", "svg-rect", "box"],
+    "isPopular": true,
+    "interfaces": [
+      "SVGRectElement",
+      "SVGGeometryElement",
+      "SVGGraphicsElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "rect",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+import type { IssueRule } from '../../../types'
+
+export const unknownAttributeRule: IssueRule<{
+  name: string | number
+}> = {
+  code: 'unknown attribute',
+  level: 'error',
+  category: 'Unknown Reference',
+  visit: (report, { path, files, value, nodeType }) => {
+    if (
+      nodeType !== 'formula' ||
+      value.type !== 'path' ||
+      value.path[0] !== 'Attributes'
+    ) {
+      return
+    }
+
+    const [, componentName] = path
+    const [, attributeKey] = value.path
+    const component = files.components[componentName]
+    if (!component?.attributes?.[attributeKey]) {
+      report({
+        path,
+        info: {
+          title: 'Unknown attribute',
+          description: `**${attributeKey}** does not exist. Using an unknown attribute will always return *Null*.`,
+        },
+        details: { name: attributeKey },
+      })
+    }
+  },
+}

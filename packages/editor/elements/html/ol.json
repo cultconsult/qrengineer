@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "ol",
+    "categories": ["semantic"],
+    "description": "Represents an ordered list of items",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol",
+    "aliases": ["ordered-list", "numbered-list", "list"],
+    "interfaces": [
+      "HTMLOListElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ],
+    "permittedChildren": ["li", "template", "script"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "ol",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

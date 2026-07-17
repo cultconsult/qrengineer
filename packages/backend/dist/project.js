@@ -1,0 +1,1 @@
+export default {"project":{"id":"1e3ea1a5-b6df-40aa-a452-cc3760556d4d","name":"CultConsult","short_id":"cultconsult","type":"app","published_at":null,"public":true,"accounts":{"id":"c212f7c9-3b10-4b34-8c17-ecf26db07327","name":"CultConsult"}},"config":{"meta":{"robots":null}}}

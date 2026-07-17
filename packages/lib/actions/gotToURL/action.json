@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/libAction.schema.json",
+  "name": "Go to URL",
+  "description": "Navigate to a specified URL.",
+  "group": "navigation",
+  "arguments": [
+    {
+      "name": "URL",
+      "description": "The URL to navigate to.",
+      "type": { "type": "String" },
+      "formula": {
+        "type": "value",
+        "value": "https://example.com"
+      }
+    }
+  ]
+}

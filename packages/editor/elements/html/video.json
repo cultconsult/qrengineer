@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "name": "video",
+    "categories": ["media"],
+    "description": "Embeds a video player for video playback",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
+    "aliases": ["movie", "media", "film"],
+    "interfaces": [
+      "HTMLVideoElement",
+      "HTMLMediaElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "video",
+        "type": "element",
+        "attrs": {
+          "src": {
+            "type": "value",
+            "value": ""
+          }
+        },
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

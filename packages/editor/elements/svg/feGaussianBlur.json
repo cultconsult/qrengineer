@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "feGaussianBlur",
+    "categories": ["svg"],
+    "description": "Applies a Gaussian blur effect to the input image",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feGaussianBlur",
+    "aliases": ["gaussian-blur", "svg-blur"],
+    "interfaces": [
+      "SVGFEGaussianBlurElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "feGaussianBlur",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "name": "aside",
+    "categories": ["semantic"],
+    "description": "Contains content tangentially related to the main content, like a sidebar",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside",
+    "aliases": ["sidebar"],
+    "interfaces": ["HTMLElement", "Element", "Node", "EventTarget", "global"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "aside",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

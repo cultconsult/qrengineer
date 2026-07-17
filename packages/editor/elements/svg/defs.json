@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "name": "defs",
+    "categories": ["svg"],
+    "description": "Container for elements that can be referenced later, such as gradients or filters",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/defs",
+    "aliases": ["definitions", "svg-defs"],
+    "interfaces": [
+      "SVGDefsElement",
+      "SVGGraphicsElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "defs",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

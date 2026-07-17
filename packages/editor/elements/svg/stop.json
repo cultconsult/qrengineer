@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "stop",
+    "categories": ["svg"],
+    "description": "Specifies a color and position in a gradient",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/stop",
+    "aliases": ["gradient-stop", "svg-stop", "gradient"],
+    "interfaces": [
+      "SVGStopElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "stop",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

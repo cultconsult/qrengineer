@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "name": "select",
+    "categories": ["form"],
+    "description": "Creates a dropdown list for selecting options",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select",
+    "aliases": ["dropdown", "select-box"],
+    "interfaces": [
+      "HTMLSelectElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ],
+    "permittedChildren": ["option", "optgroup", "hr"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "select",
+        "type": "element",
+        "attrs": {
+          "name": {
+            "type": "value",
+            "value": ""
+          }
+        },
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

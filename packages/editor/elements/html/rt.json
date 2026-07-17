@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "rt",
+    "categories": ["typography"],
+    "description": "Specifies the pronunciation of characters in ruby annotations",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rt",
+    "aliases": ["ruby-text"],
+    "interfaces": ["HTMLElement", "Element", "Node", "EventTarget", "global"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "rt",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": ["MsVwQCP4yKPh_00L4fAhT"],
+        "style-variables": []
+      },
+      "MsVwQCP4yKPh_00L4fAhT": {
+        "type": "text",
+        "value": {
+          "type": "value",
+          "value": "Text"
+        }
+      }
+    }
+  }
+}

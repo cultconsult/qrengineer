@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/libAction.schema.json",
+  "name": "Focus",
+  "description": "Move focus to a DOM element.",
+  "group": "events",
+  "arguments": [
+    {
+      "name": "Element",
+      "description": "The DOM element that should receive focus.",
+      "type": {
+        "type": "Element"
+      },
+      "formula": {
+        "type": "value",
+        "value": null
+      }
+    },
+    {
+      "name": "Prevent scroll",
+      "description": "Prevent scrolling to the focused element.",
+      "type": {
+        "type": "String"
+      },
+      "formula": {
+        "type": "value",
+        "value": null
+      }
+    }
+  ]
+}

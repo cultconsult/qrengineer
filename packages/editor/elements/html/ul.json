@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "name": "ul",
+    "categories": ["semantic"],
+    "description": "Represents an unordered list of items",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul",
+    "aliases": ["unordered-list", "bulleted-list", "list"],
+    "isPopular": true,
+    "interfaces": [
+      "HTMLUListElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ],
+    "permittedChildren": ["li", "template", "script"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "ul",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

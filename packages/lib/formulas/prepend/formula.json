@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/libFormula.schema.json",
+  "name": "Prepend",
+  "description": "Add an element to the start of an Array.",
+  "arguments": [
+    {
+      "name": "Array",
+      "type": {
+        "type": "Array"
+      },
+      "description": "The Array to prepend to.",
+      "formula": {
+        "type": "array",
+        "arguments": []
+      }
+    },
+    {
+      "name": "Item",
+      "type": {
+        "type": "Any"
+      },
+      "description": "The item to prepend to the Array.",
+      "formula": {
+        "type": "value",
+        "value": "Item"
+      }
+    }
+  ],
+  "output": {
+    "description": "A new Array containing the new item and all the elements from the input Array.",
+    "type": {
+      "type": "Array"
+    }
+  }
+}

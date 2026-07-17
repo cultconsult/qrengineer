@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "name": "image",
+    "categories": ["svg"],
+    "description": "Embeds an external image within the SVG",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/image",
+    "aliases": ["svg-image", "bitmap"],
+    "interfaces": [
+      "SVGImageElement",
+      "SVGGraphicsElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "image",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

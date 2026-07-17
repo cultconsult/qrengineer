@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "feBlend",
+    "categories": ["svg"],
+    "description": "Blends two images together using a specified blending mode",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feBlend",
+    "aliases": ["blend-filter", "svg-blend"],
+    "interfaces": [
+      "SVGFEBlendElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "feBlend",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

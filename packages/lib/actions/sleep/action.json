@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/libAction.schema.json",
+  "name": "Sleep",
+  "description": "Run an action after a delay.",
+  "group": "timers",
+  "arguments": [
+    {
+      "name": "Delay in milliseconds",
+      "description": "The number of milliseconds to wait before an action is executed.",
+      "type": { "type": "Number" },
+      "formula": { "type": "value", "value": 500 }
+    }
+  ],
+  "events": {
+    "tick": { "actions": [] }
+  }
+}

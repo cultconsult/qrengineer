@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "name": "ins",
+    "categories": ["typography"],
+    "description": "Indicates inserted or added text",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins",
+    "aliases": ["inserted-text", "addition"],
+    "interfaces": [
+      "HTMLModElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "ins",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": ["MsVwQCP4yKPh_00L4fAhT"],
+        "style-variables": []
+      },
+      "MsVwQCP4yKPh_00L4fAhT": {
+        "type": "text",
+        "value": {
+          "type": "value",
+          "value": "Inserted text"
+        }
+      }
+    }
+  }
+}

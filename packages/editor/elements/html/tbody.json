@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "name": "tbody",
+    "categories": ["semantic"],
+    "description": "Groups the body content in a table",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody",
+    "aliases": ["table-body"],
+    "interfaces": [
+      "HTMLTableSectionElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ],
+    "permittedChildren": ["tr"],
+    "permittedParents": ["table"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "tbody",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

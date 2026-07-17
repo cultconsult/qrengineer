@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "name": "feFuncB",
+    "categories": ["svg"],
+    "description": "Defines the transfer function for the blue channel in feComponentTransfer",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feFuncB",
+    "aliases": ["function-b", "svg-func-b"],
+    "interfaces": [
+      "SVGFEFuncBElement",
+      "SVGComponentTransferFunctionElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "feFuncB",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

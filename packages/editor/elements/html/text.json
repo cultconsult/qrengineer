@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Text",
+    "categories": ["typography"],
+    "description": "Defines a Nordcraft text element. This is a special element used for text content and cannot have any child elements",
+    "aliases": ["Text"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "type": "text",
+        "value": {
+          "type": "value",
+          "value": "Text"
+        }
+      }
+    }
+  }
+}

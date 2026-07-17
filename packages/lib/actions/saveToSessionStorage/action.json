@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/libAction.schema.json",
+  "name": "Save to session storage",
+  "description": "Save a provided key/value to session storage by JSON encoding the value.",
+  "group": "session_storage",
+  "arguments": [
+    {
+      "name": "Key",
+      "description": "The key to be used in session storage.",
+      "type": { "type": "String" },
+      "formula": {
+        "type": "value",
+        "value": ""
+      }
+    },
+    {
+      "name": "Value",
+      "description": "The value that should be saved in session storage. This can be anything that is serializable (String, Number, Boolean, Array or Object).",
+      "type": { "type": "Any" },
+      "formula": {
+        "type": "value",
+        "value": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "caption",
+    "categories": ["semantic"],
+    "description": "Specifies the caption or title for a table",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption",
+    "aliases": ["table-caption"],
+    "interfaces": [
+      "HTMLTableCaptionElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "caption",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

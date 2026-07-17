@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "hr",
+    "categories": ["typography"],
+    "description": "Creates a thematic break with a horizontal rule",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr",
+    "aliases": ["horizontal-rule", "divider"],
+    "isVoid": true,
+    "interfaces": [
+      "HTMLHRElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "hr",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

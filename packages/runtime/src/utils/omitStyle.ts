@@ -1,0 +1,25 @@
+import type { Component } from '@nordcraft/core/dist/component/component.types'
+import type { StyleVariant } from '@nordcraft/core/dist/styling/variantSelector'
+
+export function omitSubnodeStyleForComponent<T extends Component | undefined>(
+  component: T,
+): T {
+  const clone = structuredClone(component)
+  Object.entries(clone?.nodes ?? {}).forEach(([nodeId, node]) => {
+    if (
+      (node.type === 'element' || node.type === 'component') &&
+      nodeId !== 'root'
+    ) {
+      delete node.style
+      delete node.animations
+      node.variants = node.variants?.map(
+        ({ customProperties }) =>
+          ({
+            customProperties,
+          }) as StyleVariant,
+      )
+    }
+  })
+
+  return clone
+}

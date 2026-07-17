@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "name": "switch",
+    "categories": ["svg"],
+    "description": "Renders the first child element that matches certain conditions",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/switch",
+    "aliases": ["svg-switch", "conditional"],
+    "interfaces": [
+      "SVGSwitchElement",
+      "SVGGraphicsElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "switch",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

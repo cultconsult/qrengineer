@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/libFormula.schema.json",
+  "name": "Drop last",
+  "description": "Remove item(s) from the end of an Array or String.",
+  "arguments": [
+    {
+      "name": "Array",
+      "formula": {
+        "type": "value",
+        "value": null
+      },
+      "description": "The input value.",
+      "type": {
+        "type": "Array \\| String"
+      }
+    },
+    {
+      "name": "Count",
+      "formula": {
+        "type": "value",
+        "value": 1
+      },
+      "type": {
+        "type": "Number"
+      },
+      "description": "Number of items to remove."
+    }
+  ],
+  "output": {
+    "description": "A copy of the list without the last item(s).",
+    "type": {
+      "type": "Array \\| String"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "metadata",
+    "categories": ["svg"],
+    "description": "Embeds metadata within the SVG, such as licensing or author information",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/metadata",
+    "aliases": ["svg-metadata", "meta"],
+    "interfaces": [
+      "SVGMetadataElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "metadata",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

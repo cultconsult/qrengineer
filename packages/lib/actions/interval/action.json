@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/libAction.schema.json",
+  "name": "Interval",
+  "description": "Run an action every \"delay\" milliseconds.",
+  "group": "timers",
+  "arguments": [
+    {
+      "name": "Interval in milliseconds",
+      "description": "The interval \"delay\".",
+      "type": { "type": "Number" },
+      "formula": { "type": "value", "value": 1000 }
+    }
+  ],
+  "events": {
+    "tick": { "actions": [] }
+  }
+}

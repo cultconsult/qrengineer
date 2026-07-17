@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "samp",
+    "categories": ["typography"],
+    "description": "Represents sample output from a computer program",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp",
+    "aliases": ["sample-output"],
+    "interfaces": ["HTMLElement", "Element", "Node", "EventTarget", "global"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "samp",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": ["MsVwQCP4yKPh_00L4fAhT"],
+        "style-variables": []
+      },
+      "MsVwQCP4yKPh_00L4fAhT": {
+        "type": "text",
+        "value": {
+          "type": "value",
+          "value": "Text"
+        }
+      }
+    }
+  }
+}

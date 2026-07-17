@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "feDropShadow",
+    "categories": ["svg"],
+    "description": "Applies a drop shadow effect to the input image, allowing control over color, blur, and offset",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feDropShadow",
+    "aliases": ["drop-shadow", "svg-shadow"],
+    "interfaces": [
+      "SVGFEDropShadowElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "feDropShadow",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

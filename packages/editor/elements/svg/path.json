@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "path",
+    "categories": ["svg"],
+    "description": "Draws complex shapes using a series of commands and coordinates",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/path",
+    "aliases": ["svg-path", "bezier"],
+    "isPopular": true,
+    "interfaces": [
+      "SVGPathElement",
+      "SVGGeometryElement",
+      "SVGGraphicsElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "path",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

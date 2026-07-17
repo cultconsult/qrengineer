@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "feDiffuseLighting",
+    "categories": ["svg"],
+    "description": "Simulates diffuse lighting on an image for a 3D effect",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feDiffuseLighting",
+    "aliases": ["diffuse-light", "svg-lighting"],
+    "interfaces": [
+      "SVGFEDiffuseLightingElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "feDiffuseLighting",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

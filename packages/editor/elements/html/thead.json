@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "name": "thead",
+    "categories": ["semantic"],
+    "description": "Groups the header content in a table",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead",
+    "aliases": ["table-header"],
+    "interfaces": [
+      "HTMLTableSectionElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ],
+    "permittedChildren": ["tr"],
+    "permittedParents": ["table"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "thead",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

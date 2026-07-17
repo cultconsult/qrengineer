@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "s",
+    "categories": ["typography"],
+    "description": "Renders text with a strikethrough, indicating inaccuracy or removal",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s",
+    "aliases": ["strikethrough", "deleted"],
+    "interfaces": ["HTMLElement", "Element", "Node", "EventTarget", "global"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "s",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": ["MsVwQCP4yKPh_00L4fAhT"],
+        "style-variables": []
+      },
+      "MsVwQCP4yKPh_00L4fAhT": {
+        "type": "text",
+        "value": {
+          "type": "value",
+          "value": "Strikethrough text"
+        }
+      }
+    }
+  }
+}

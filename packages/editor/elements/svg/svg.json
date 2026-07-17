@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "svg",
+    "categories": ["semantic", "svg"],
+    "description": "Container element for SVG graphics, defining the coordinate system and viewport",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/svg",
+    "aliases": ["vector", "graphic", "svg-root"],
+    "isPopular": true,
+    "interfaces": [
+      "SVGElement",
+      "SVGGraphicsElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "svg",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

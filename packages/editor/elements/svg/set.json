@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "name": "set",
+    "categories": ["svg"],
+    "description": "Sets an attribute to a value for a specified duration",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/set",
+    "aliases": ["svg-set", "attribute-set"],
+    "interfaces": [
+      "SVGSetElement",
+      "SVGAnimationElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "set",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

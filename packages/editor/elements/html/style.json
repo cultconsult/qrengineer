@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "name": "style",
+    "categories": ["semantic", "svg"],
+    "description": "Embeds CSS styles within the document",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style",
+    "aliases": ["css", "stylesheet"],
+    "interfaces": [
+      "HTMLStyleElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "style",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": ["MsVwQCP4yKPh_00L4fAhT"],
+        "style-variables": []
+      },
+      "MsVwQCP4yKPh_00L4fAhT": {
+        "type": "text",
+        "value": {
+          "type": "value",
+          "value": ""
+        }
+      }
+    }
+  }
+}

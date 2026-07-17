@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "text",
+    "categories": ["svg"],
+    "description": "Renders text within the SVG canvas",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/text",
+    "aliases": ["svg-text", "label"],
+    "interfaces": [
+      "SVGTextElement",
+      "SVGTextPositioningElement",
+      "SVGTextContentElement",
+      "SVGGraphicsElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "text",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

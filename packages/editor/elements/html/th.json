@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "th",
+    "categories": ["semantic"],
+    "description": "Defines a header cell in a table",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th",
+    "aliases": ["table-header-cell"],
+    "interfaces": [
+      "HTMLTableCellElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ],
+    "permittedParents": ["tr"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "th",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

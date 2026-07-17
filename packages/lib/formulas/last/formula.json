@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/libFormula.schema.json",
+  "name": "Last",
+  "description": "Get the last item in an Array or the last character in a String.",
+  "arguments": [
+    {
+      "name": "Array",
+      "formula": {
+        "type": "value",
+        "value": []
+      },
+      "type": {
+        "type": "Array \\| String"
+      },
+      "description": "An array of items or a String."
+    }
+  ],
+  "output": {
+    "description": "The last item in the Array or the last character in the String.",
+    "type": {
+      "type": "Any"
+    }
+  }
+}

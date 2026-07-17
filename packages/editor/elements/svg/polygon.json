@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "polygon",
+    "categories": ["svg"],
+    "description": "Draws a closed shape defined by a series of points",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/polygon",
+    "aliases": ["svg-polygon", "shape"],
+    "interfaces": [
+      "SVGPolygonElement",
+      "SVGGeometryElement",
+      "SVGGraphicsElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "polygon",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

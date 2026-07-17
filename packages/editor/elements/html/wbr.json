@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "name": "wbr",
+    "categories": ["typography"],
+    "description": "Suggests a line break opportunity within text",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr",
+    "aliases": ["word-break"],
+    "isVoid": true,
+    "interfaces": ["HTMLElement", "Element", "Node", "EventTarget", "global"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "wbr",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

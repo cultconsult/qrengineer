@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "picture",
+    "categories": ["media"],
+    "description": "Provides multiple sources for responsive images",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture",
+    "aliases": ["responsive-image", "image"],
+    "interfaces": [
+      "HTMLPictureElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "picture",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

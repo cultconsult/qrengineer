@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "div",
+    "categories": ["semantic"],
+    "description": "Generic container for content, used for layout and styling",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div",
+    "aliases": ["container", "division"],
+    "isPopular": true,
+    "interfaces": [
+      "HTMLDivElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "div",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

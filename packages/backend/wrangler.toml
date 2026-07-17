@@ -1,0 +1,16 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "nordcraft-worker-example"
+
+main = "dist/index.js"
+compatibility_date = "2025-09-13"
+
+rules = [
+  # Include all json files in the worker (should only be the actual project)
+  { type = "ESModule", globs = ["**/*.js"], fallthrough = true }
+]
+
+[observability.logs]
+enabled = true
+
+[assets]
+directory = "./dist/assets"

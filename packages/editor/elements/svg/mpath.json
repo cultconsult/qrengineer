@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "mpath",
+    "categories": ["svg"],
+    "description": "Defines a motion path for animateMotion",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/mpath",
+    "aliases": ["motion-path", "svg-mpath"],
+    "interfaces": [
+      "SVGMPathElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "mpath",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

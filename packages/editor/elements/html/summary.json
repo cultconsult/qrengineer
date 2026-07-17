@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "name": "summary",
+    "categories": ["semantic"],
+    "description": "Provides a summary or heading for a details element",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary",
+    "aliases": ["details-summary"],
+    "interfaces": ["HTMLElement", "Element", "Node", "EventTarget", "global"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "summary",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

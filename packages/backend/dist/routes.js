@@ -1,0 +1,1 @@
+export default {"routes":{},"pages":{"HomePage":{"name":"HomePage","route":{"path":[],"query":{}}}}}

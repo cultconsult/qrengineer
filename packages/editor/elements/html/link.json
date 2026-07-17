@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "name": "link",
+    "categories": ["semantic"],
+    "description": "Specifies relationships between the current document and external resources",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
+    "aliases": ["stylesheet-link", "external-resource"],
+    "isVoid": true,
+    "interfaces": [
+      "HTMLLinkElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "link",
+        "type": "element",
+        "attrs": {
+          "rel": {
+            "type": "value",
+            "value": ""
+          },
+          "href": {
+            "type": "value",
+            "value": ""
+          }
+        },
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

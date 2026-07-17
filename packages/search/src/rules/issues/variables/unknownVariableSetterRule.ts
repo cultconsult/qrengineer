@@ -1,0 +1,27 @@
+import type { IssueRule } from '../../../types'
+
+export const unknownVariableSetterRule: IssueRule<{
+  name: string
+}> = {
+  code: 'unknown variable setter',
+  level: 'warning',
+  category: 'Unknown Reference',
+  visit: (report, { path, files, value, nodeType }) => {
+    if (nodeType !== 'action-model' || value.type !== 'SetVariable') {
+      return
+    }
+
+    const [, componentName] = path
+    const component = files.components[componentName]
+    if (!component?.variables?.[value.variable]) {
+      report({
+        path,
+        info: {
+          title: 'Unknown variable setter',
+          description: `**${value.variable}** does not exist. Make sure to define it before setting.`,
+        },
+        details: { name: value.variable },
+      })
+    }
+  },
+}

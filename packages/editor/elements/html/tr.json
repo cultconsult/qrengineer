@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "name": "tr",
+    "categories": ["semantic"],
+    "description": "Defines a row in a table",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr",
+    "aliases": ["table-row"],
+    "interfaces": [
+      "HTMLTableRowElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ],
+    "permittedChildren": ["td", "th", "script", "template"],
+    "permittedParents": ["table", "thead", "tbody", "tfoot"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "tr",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

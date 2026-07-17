@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "name": "colgroup",
+    "categories": ["semantic"],
+    "description": "Groups one or more columns in a table for formatting",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup",
+    "aliases": ["table-column-group"],
+    "interfaces": [
+      "HTMLTableColElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "colgroup",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

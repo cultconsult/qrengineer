@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "name": "nav",
+    "categories": ["semantic"],
+    "description": "Defines navigation links for the site or section",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav",
+    "aliases": ["navigation", "menu"],
+    "interfaces": ["HTMLElement", "Element", "Node", "EventTarget", "global"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "nav",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

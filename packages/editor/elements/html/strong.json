@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "name": "strong",
+    "categories": ["typography"],
+    "description": "Indicates strong importance, typically rendered in bold",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong",
+    "aliases": ["bold", "importance"],
+    "interfaces": ["HTMLElement", "Element", "Node", "EventTarget", "global"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "strong",
+        "type": "element",
+        "attrs": {},
+        "style": {
+          "display": "inline",
+          "font-family": "inherit",
+          "font-weight": "bold",
+          "font-size": "inherit"
+        },
+        "events": {},
+        "classes": {},
+        "children": ["MsVwQCP4yKPh_00L4fAhT"],
+        "style-variables": []
+      },
+      "MsVwQCP4yKPh_00L4fAhT": {
+        "type": "text",
+        "value": {
+          "type": "value",
+          "value": "Bold text"
+        }
+      }
+    }
+  }
+}

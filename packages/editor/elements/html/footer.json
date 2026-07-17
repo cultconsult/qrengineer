@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "name": "footer",
+    "categories": ["semantic"],
+    "description": "Defines a footer for a section or page",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer",
+    "aliases": ["page-footer", "section-footer"],
+    "interfaces": ["HTMLElement", "Element", "Node", "EventTarget", "global"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "footer",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

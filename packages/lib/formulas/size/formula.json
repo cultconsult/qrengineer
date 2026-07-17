@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/libFormula.schema.json",
+  "name": "Size",
+  "description": "Get the size of an Array, Object or String.",
+  "arguments": [
+    {
+      "name": "Collection",
+      "formula": {
+        "type": "value",
+        "value": [1, 2, 3]
+      },
+      "description": "The collection to get the size of.",
+      "type": {
+        "type": "Array \\| Object \\| String"
+      }
+    }
+  ],
+  "output": {
+    "description": "The size of the collection.",
+    "type": {
+      "type": "Number"
+    }
+  }
+}

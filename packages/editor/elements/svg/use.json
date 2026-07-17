@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "name": "use",
+    "categories": ["svg"],
+    "description": "References and reuses an existing SVG element defined elsewhere",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/use",
+    "aliases": ["svg-use", "reference"],
+    "interfaces": [
+      "SVGUseElement",
+      "SVGGraphicsElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "use",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

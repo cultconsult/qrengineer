@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "name": "script",
+    "categories": ["semantic"],
+    "description": "Embeds or references executable JavaScript code",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script",
+    "aliases": ["javascript", "client-script"],
+    "interfaces": [
+      "HTMLScriptElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "script",
+        "type": "element",
+        "attrs": {
+          "src": {
+            "type": "value",
+            "value": ""
+          }
+        },
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

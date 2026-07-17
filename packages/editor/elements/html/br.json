@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "br",
+    "categories": ["typography"],
+    "description": "Produces a single line break in text",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br",
+    "aliases": ["line-break"],
+    "isVoid": true,
+    "interfaces": [
+      "HTMLBRElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "br",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

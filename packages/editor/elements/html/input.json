@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "name": "input",
+    "categories": ["form"],
+    "description": "Accepts user input in a form",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input",
+    "aliases": ["form-input", "user-input"],
+    "isVoid": true,
+    "isPopular": true,
+    "interfaces": [
+      "HTMLInputElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "input",
+        "type": "element",
+        "attrs": {
+          "type": {
+            "type": "value",
+            "value": "text"
+          },
+          "value": {
+            "type": "value",
+            "value": ""
+          },
+          "placeholder": {
+            "type": "value",
+            "value": ""
+          }
+        },
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

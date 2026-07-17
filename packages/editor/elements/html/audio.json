@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "audio",
+    "categories": ["media"],
+    "description": "Embeds sound content such as music or audio streams",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
+    "aliases": ["sound", "music"],
+    "interfaces": [
+      "HTMLAudioElement",
+      "HTMLMediaElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "audio",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

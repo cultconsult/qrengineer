@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "mask",
+    "categories": ["svg"],
+    "description": "Defines a mask to control the visibility of parts of an element",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/mask",
+    "aliases": ["svg-mask", "masking"],
+    "interfaces": [
+      "SVGMaskElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "mask",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}

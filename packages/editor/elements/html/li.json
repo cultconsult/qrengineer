@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "name": "li",
+    "categories": ["semantic"],
+    "description": "Represents an item in a list",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li",
+    "aliases": ["list-item"],
+    "isPopular": true,
+    "interfaces": [
+      "HTMLLIElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ],
+    "permittedParents": ["ul", "ol", "menu"]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "li",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

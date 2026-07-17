@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "name": "img",
+    "categories": ["media"],
+    "description": "Embeds an image into the document",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
+    "aliases": ["image", "picture"],
+    "isVoid": true,
+    "isPopular": true,
+    "interfaces": [
+      "HTMLImageElement",
+      "HTMLElement",
+      "Element",
+      "Node",
+      "EventTarget",
+      "global"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "img",
+        "type": "element",
+        "attrs": {
+          "src": {
+            "type": "value",
+            "value": ""
+          },
+          "alt": {
+            "type": "value",
+            "value": null
+          }
+        },
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": [],
+        "style-variables": []
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "feImage",
+    "categories": ["svg"],
+    "description": "Uses an external image as input for a filter effect",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feImage",
+    "aliases": ["image-filter", "svg-image"],
+    "interfaces": [
+      "SVGFEImageElement",
+      "SVGElement",
+      "Element",
+      "Node",
+      "EventTarget"
+    ]
+  },
+  "element": {
+    "type": "nodes",
+    "source": "catalog",
+    "nodes": {
+      "root": {
+        "tag": "feImage",
+        "type": "element",
+        "attrs": {},
+        "style": {},
+        "events": {},
+        "classes": {},
+        "children": []
+      }
+    }
+  }
+}
